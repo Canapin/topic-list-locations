@@ -1,5 +1,6 @@
 {{#if context.topic.location}}
-  <div class="title-location">
+  <br>
+  <span class="title-location">
     {{d-icon 'map-marker-alt'}} {{location-format context.topic.location opts}}
-  </div>
+  </span>
 {{/if}}
